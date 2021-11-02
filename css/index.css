@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #fffceb;
+}
+header {
+  background-color: rgb(200, 16, 46);
+  padding: 2rem;
+}
+header > img {
+  margin: auto;
+  display: block;
+  border: solid white 3px;
+  border-radius: 50%;
+}
+footer {
+  background-color: rgb(200, 16, 46);
+  text-align: center;
+  color: #ffd700;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#small-img {
+  width: 2rem;
+}
+#medium-img {
+  width: 3rem;
+}
+#large-img {
+  width: 4rem;
+}
+#x-large-img {
+  width: 5rem;
+}
+
+label > img:hover {
+  border: solid black 3px;
+  cursor: pointer;
+}
+.outer-radio-container {
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 75%;
+  height: 200px;
+  margin: auto;
+}
+.radio-container {
+  text-align: center;
+}
+.radio-container label img {
+  margin: auto;
+}
+h3 {
+  text-align: center;
+}
+.btn {
+  text-align: center;
+}
+.btn > input {
+  font-size: 2rem;
+  margin: 30px;
+  background-color: rgba(200, 16, 47, 0.705) 3px solid;
+  border-radius: 25px;
+}
+.btn > input:hover {
+  cursor: pointer;
+  background-color: #eb2526;
+  color: white;
+}
+#sugar {
+  width: 3rem;
+}
+.cups {
+  display: block;
+}
+
+.order-output-container {
+  border: solid rgb(67, 39, 38) 5px;
+  width: 50%;
+  margin: auto;
+  background-color: #fcf3c3;
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  align-content: center;
+  align-items: center;
+}
+
+.order-output-container > div {
+  margin: 3%;
+}
+
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+.container-inputs > div {
+  margin: 30px;
+}
+.print-price {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.total-cost {
+  border: solid #eb2526 3px;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: auto;
+}
+.errMsg {
+  text-align: center;
+  color: red;
+  padding: 10px;
+  font-size: 1.5rem;
+}
